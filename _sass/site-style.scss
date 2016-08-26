@@ -200,11 +200,11 @@ footer .glyphicon {
 
   img { width: 100%; }
 
-  @include media-query(1000px) {
+  @include media-query($on-laptop) {
     max-width: 800px;
   }
 
-  @include media-query(800px) {
+  @include media-query($on-palm) {
     max-width: 400px;
   }
 
@@ -214,6 +214,15 @@ footer .glyphicon {
   max-height: $navbar-height;
 
   img { width: 100%; }
+
+  @include media-query(1000px) {
+    max-width: 90%;
+  }
+
+  @include media-query(800px) {
+    max-width: 80%;
+  }
+
 }
 
 @mixin border-radius($radius) {
