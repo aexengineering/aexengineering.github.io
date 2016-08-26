@@ -209,7 +209,7 @@ footer .glyphicon {
   }
 
   @include media-query($on-mobile) {
-    max-width: 400px;
+    max-width: 300px;
   }
 
 }
