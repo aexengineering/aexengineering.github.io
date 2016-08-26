@@ -205,7 +205,11 @@ footer .glyphicon {
   }
 
   @include media-query($on-palm) {
-    max-width: 400px;
+    max-width: 600px;
+  }
+
+  @include media-query($on-mobile) {
+    max-width: 150px;
   }
 
 }
@@ -215,12 +219,16 @@ footer .glyphicon {
 
   img { width: 100%; }
 
-  @include media-query(1000px) {
-    max-width: 90%;
+  @include media-query($on-laptop) {
+    max-width: 80%;
   }
 
-  @include media-query(800px) {
-    max-width: 80%;
+  @include media-query($on-palm) {
+    max-width: 60%;
+  }
+
+  @include media-query($on-mobile) {
+    max-width: 40%;
   }
 
 }
