@@ -226,7 +226,7 @@ footer .glyphicon {
   }
 
   @include media-query($on-palm) {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   @include media-query($on-mobile) {
