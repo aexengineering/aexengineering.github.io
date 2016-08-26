@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    {% include {{ site.baseurl }}/en/header.html %}
+
+    <div class="jumbotron text-center">
+      <img class ="my-logo" src="/img/logo/AEX-LOGO-MAIN.png">
+    </div>
+
+    <div class="my-jumbotron text-center">
+          <h1>Automating User Experience to enhance production quality</h1>
+    </div>
+
+    {% include {{ site.baseurl }}/en/about.html %}
+
+    {% include {{ site.baseurl }}/en/team.html %}
+
+    {% include {{ site.baseurl }}/en/contact.html %}
+
+    {% include {{ site.baseurl }}/en/footer.html %}
+
+  </body>
+
+</html>

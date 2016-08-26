@@ -6,16 +6,36 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: AEX Engineering
+title_short: AEX Eng
+author: Massimiliano Zonta
+email: info@aexengineering.com
+phone: +39 04241931538
+mobile: +39 3488590927
+skype: massimiliano.zonta
+address:
+  Via tre ponti, 62
+  <br>
+  36061 Bassano del Grappa (VI)
+  <br>
+  Italy
+description:  # this means to ignore newlines until "baseurl:"
+ Automating user EXperience
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://aexengineering.github.io" # the base hostname & protocol for your site
+twitter_username: aexengineering
+github_username:  aexengineering
+linkedin_username: aexengineering-di-ing-zonta-massimiliano
 
 # Build settings
 markdown: kramdown
+
+# Other settings
+sass:
+ style: :compressed
+
+# page size
+page-width: 1280px
+page-min-height: 900px
+page_title_height: 120px
+post_title_height: 200px

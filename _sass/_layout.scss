@@ -83,6 +83,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            color: $text-color;
 
             &:not(:last-child) {
                 margin-right: 0;
@@ -191,7 +192,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 
@@ -204,12 +205,24 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-weight: 700;
+    font-size: 44px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 32px; //24px;
+    }
+}
+
+.post-subtitle {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 24px; //20px;
     }
 }
 

@@ -1,0 +1,506 @@
+// Theme Made By www.w3schools.com
+
+body {
+    font: $base-font-weight $base-font-size $base-font-family;
+    line-height: 1.8;
+    color: $text-color; //color: #818181;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: $brand-color;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: $text-color;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.jumbotron {
+    background-color: $jumbotron-bg;
+    color: $brand-color;
+    padding: 150px 25px 50px 25px;
+    font-family: $base-font-family;
+}
+.container-fluid {
+    padding: $navbar-height 50px;
+}
+.bg-grey {
+    background-color: $grey-color;
+}
+.bg-grey-light {
+    background-color: $grey-color-light;
+}
+
+.logo-small {
+    color: $brand-color;
+    font-size: 50px;
+}
+.logo {
+    color: $brand-color;
+    font-size: 200px;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: $brand-color;
+}
+.carousel-indicators li {
+    border-color: $brand-color;
+}
+.carousel-indicators li.active {
+    background-color: $brand-color;
+}
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.item span {
+    font-style: normal;
+}
+.panel {
+    border: 1px solid $brand-color;
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+    border: 1px solid $brand-color;
+    background-color: #fff !important;
+    color: $brand-color;
+}
+.panel-heading {
+    color: #fff !important;
+    background-color: $brand-color !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-footer {
+    background-color: white !important;
+}
+.panel-footer h3 {
+    font-size: 32px;
+}
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: $brand-color;
+    color: #fff;
+}
+.navbar {
+    margin-bottom: 0;
+    padding-bottom: $navbar-height;
+    //background-color: $grey-color-light; //$white; //$brand-color;
+    z-index: 9999;
+    border: 0;
+    border-color: $brand-color;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: $base-font-family;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: $brand-color !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: $white !important;
+    background-color: $brand-color !important;
+    border-radius: 0px;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: $brand-color !important;
+}
+
+.navbar-collapse {
+    background-color: $navbar-default-bg !important;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: $brand-color;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+      font-size: 150px;
+  }
+}
+
+// AEX
+
+.my-logo {
+  max-width: 1200px;
+
+  img { width: 100%; }
+
+  @include media-query(1000px) {
+    max-width: 800px;
+  }
+
+  @include media-query(800px) {
+    max-width: 400px;
+  }
+
+}
+
+.my-brand {
+  max-height: $navbar-height;
+
+  img { width: 100%; }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.my-photo {
+  max-width: 100%;
+  @include border-radius(100px);
+}
+
+.my-thumbnail {
+    padding: 0 0 15px 0;
+    border-radius: 20%;
+}
+
+.my-jumbotron {
+    background-color: $grey-color-light;
+    color: $brand-color;
+    padding: 50px 25px 75px 25px;
+    font-family: $base-font-family;
+}
+
+.navbar {
+    border-color: $brand-color;
+    height: $navbar-height;
+
+}
+.navbar-brand {
+  padding: 0 15px;
+  height: $navbar-height;
+  line-height: $navbar-height;
+}
+
+.h-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.v-space {
+    height: 20px;
+}
+
+.section-separator {
+      background-color: $grey-color-light;
+      color: $brand-color;
+      padding: 25px;
+  }
+
+.social-media-list {
+  @include list-unstyled;
+  margin-left: -5px;
+  color: $grey-color;
+  text-align: center;
+
+  > li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  @include media-query($on-laptop) {
+    text-align: center;
+  }
+
+  @include media-query($on-palm) {
+    text-align: center;
+  }
+}
+
+.footer-link {
+  margin-top: 10px;
+  text-align: right;
+
+  @include media-query($on-laptop) {
+    margin-top: 0px;
+    text-align: left;
+  }
+
+  @include media-query($on-palm) {
+    margin-top: 0px;
+    text-align: left;
+  }
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('/img/AEX-LOGO-01.png');
+
+    /* Set a specific height */
+    height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+
+    @include media-query(1000px) {
+      height: 500px;
+      background-size: 800px;
+    }
+
+    @include media-query(800px) {
+      height: 300px;
+      background-size: 400px;
+    }
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:visited {
+        color: $link-color;
+    }
+
+    &:hover {
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+    }
+}
+
+.site-footer {
+    background-color: $grey-color-light;
+    border-top: 1px solid $grey-color-light;
+    padding: 10;
+    text-align: center;
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+
+    .legal-link {
+      color: $legal-link-color;
+
+      &:hover,
+      &:focus {
+        color: $legal-link-hover-color;
+        background-color: $legal-link-hover-color-bg;
+      }
+    }
+}
+
+.site-footer-sub {
+    background-color: $grey-color;
+    border-top: 1px solid $grey-color;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: $base-font-family;
+    font-weight: $base-font-weight;
+
+    .legal-link {
+      color: $legal-link-color;
+
+      &:hover,
+      &:focus {
+        color: $legal-link-hover-color;
+        background-color: $legal-link-hover-color-bg;
+      }
+    }
+
+    @media (max-width: $on-laptop) {
+      padding-top: 0px;
+      padding-bottom: 100px;
+    }
+    @media (max-width: $on-palm) {
+      padding-top: 0px;
+      padding-bottom: 20px;
+    }
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: 10px;
+    margin-right: 10px;
+    @extend %clearfix;
+}
+
+.footer-col {
+    margin-bottom: $spacing-unit / 2;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-col-1 {
+    width: 30%;
+}
+
+.footer-col-2 {
+    width: 40%;
+}
+
+.footer-col-3 {
+    width: 30%;
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2,
+    .footer-col-3
+     {
+       width: 100%;
+       margin-top: 10px;
+       padding: 0 px;
+       text-align: left;
+    }
+}
+
+@include media-query($on-palm) {
+  .footer-col-1,
+  .footer-col-2,
+  .footer-col-3
+   {
+     width: 100%;
+     margin-top: 10px;
+     padding: 0 px;
+     text-align: left;
+  }
+}
+
+// Legal Info
+.impressum-jumbotron {
+    background-color: $grey-color;
+    color: $white;
+    padding: 10px;
+    font-family: $base-font-family;
+    font-size: 15px;
+}
+
+.impressum-col-1 {
+    text-align: left;
+}
+
+.impressum-col-2 {
+    text-align: right;
+}
+
+.impressum-col-3 {
+    text-align: right;
+}
+
+@include media-query($on-laptop) {
+    .impressum-col-1,
+    .impressum-col-2,
+    .impressum-col-3
+     {
+       text-align: left;
+    }
+}
+
+@include media-query($on-palm) {
+  .impressum-col-1,
+  .impressum-col-2,
+  .impressum-col-3
+   {
+     text-align: left;
+  }
+}
+
+
+/* CSS-Tricks: Glyph, by Harry Roberts */
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "E N D";
+    display: inline-block;
+    position: relative;
+    top: -0.78em;//-0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+/* END - CSS-Tricks */

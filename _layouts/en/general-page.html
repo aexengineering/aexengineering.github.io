@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    {% include {{ site.baseurl }}/en/header-simple.html %}
+
+    <div class="container-fluid bg-white">
+      <div class="v-space" style="height: 50px"></div>
+      <h2 class="text-center">{{ page.title }}</h2>
+
+      <!-- Page Content -->
+      <div class="row">
+      <div class="page-content"  style="min-height: {{ site.page-min-height }}">
+        <div class="wrapper" style="text-align: justify">
+          {{ content }}
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="section-separator"></div>
+
+    {% include {{ site.baseurl }}/en/footer.html %}
+
+  </body>
+
+</html>
