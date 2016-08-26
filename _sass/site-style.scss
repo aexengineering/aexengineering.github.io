@@ -205,11 +205,11 @@ footer .glyphicon {
   }
 
   @include media-query($on-palm) {
-    max-width: 600px;
+    max-width: 500px;
   }
 
   @include media-query($on-mobile) {
-    max-width: 150px;
+    max-width: 200px;
   }
 
 }
@@ -217,18 +217,20 @@ footer .glyphicon {
 .my-brand {
   max-height: $navbar-height;
 
-  img { width: 100%; }
+  img {
+    width: 100%;
+  }
 
   @include media-query($on-laptop) {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   @include media-query($on-palm) {
-    max-width: 60%;
+    max-width: 90%;
   }
 
   @include media-query($on-mobile) {
-    max-width: 40%;
+    max-width: 80%;
   }
 
 }
