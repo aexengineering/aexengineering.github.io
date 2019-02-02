@@ -3,7 +3,7 @@ layout: it/general-page
 title: Privacy policy
 data_controller: Massimiliano Zonta
 controller_address:
-  Via tre ponti, 62
+  Via Brigata Granatieri di Sardegna, 11
   <br>
   36061 Bassano del Grappa (VI)
   <br>
@@ -11,7 +11,7 @@ controller_address:
 controller_contacts:
   (T) +39 3488590927
   <br>
-  (M) mzonta@aexengineering.com
+  (M) info@aexengineering.com
 ---
 
 Si tratta di un'informativa che è resa anche ai sensi dell'[art. 13 del d.lg. n. 196/2003 - Codice in materia di protezione dei dati personali <i class="fa fa-external-link"></i>][garante-privacy-art13-196-2003] a coloro che interagiscono con il sito web di AEX Engineering di Ing. Zonta Massimiliano (Sito) a partire dagli indirizzi:
