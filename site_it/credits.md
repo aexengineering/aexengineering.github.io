@@ -45,12 +45,6 @@ title: Crediti
 
   [font-awesome-examples]: http://fontawesome.io/examples/
 
-* ### Form
-
-  [Formspree][formspree-site]
-
-  [formspree-site]: https://formspree.io/
-
 * ### GitHub
 
   [GitHub][github-site]
