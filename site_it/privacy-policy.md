@@ -11,7 +11,7 @@ controller_address:
 controller_contacts:
   (T) +39 3488590927
   <br>
-  (M) info@aexengineering.com
+  (M) info(at)aexengineering.com
 ---
 
 Si tratta di un'informativa che è resa anche ai sensi dell'[art. 13 del d.lg. n. 196/2003 - Codice in materia di protezione dei dati personali <i class="fa fa-external-link"></i>][garante-privacy-art13-196-2003] a coloro che interagiscono con il sito web di AEX Engineering di Ing. Zonta Massimiliano (Sito) a partire dagli indirizzi:
