@@ -9,7 +9,7 @@
 title: AEX Engineering
 title_short: AEX Eng
 author: Massimiliano Zonta
-email: info@aexengineering.com
+email: info(at)aexengineering.com
 phone: +39 04241931538
 mobile: +39 3488590927
 skype: massimiliano.zonta
@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aexengineering.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  aexengineering
-linkedin_username: aexengineering-di-ing-zonta-massimiliano
+# linkedin_username: aexengineering-di-ing-zonta-massimiliano
 
 # Build settings
 markdown: kramdown
