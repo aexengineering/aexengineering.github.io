@@ -30,7 +30,7 @@ description:  # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aexengineering.github.io" # the base hostname & protocol for your site
 twitter_username:
-github_username:  aexengineering
+github_username: 
 # linkedin_username: aexengineering-di-ing-zonta-massimiliano
 
 # Build settings

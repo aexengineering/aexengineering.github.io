@@ -60,7 +60,20 @@
       </span>
     </td>
     <td style="vertical-align: middle; text-align: left">
-      Registered Office {{ site.address }}
+      <div> Registered Office
+      <div> {{ site.address }}
+    </td>
+  </tr>
+  <tr>
+    <td  style="vertical-align: top">
+      <span class="fa-stack fa-lg">
+          <i class="fa fa-stack-2x"></i>
+          <i class="fa fa-map-marker fa-stack-1x"></i>
+      </span>
+    </td>
+    <td style="vertical-align: middle; text-align: left">
+      <div> Headquarters
+      <div> {{ site.address_work }}
     </td>
   </tr>
   {% endif %}
